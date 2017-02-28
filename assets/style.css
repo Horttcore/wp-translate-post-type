@@ -43,6 +43,17 @@ label {
 	flex: 1 1 auto;
 }
 
+.form-block {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+.form-block p {
+	flex: 0 0 48.5%;
+}
+
 .copy-to-clipboard {
 	align-self: flex-end;
 	border: 1px solid #fff;

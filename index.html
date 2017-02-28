@@ -11,131 +11,185 @@
 			<h1>Custom Post Type Übersetzungen</h1>
 
 			<form method="post">
+
 				<fieldset class="post-type">
+
 					<legend>Post Typ</legend>
-					<p>
-						<label>Singular<br>
-							<input id="custom-post-type-name-singular" type="text" name="name" value="" placeholder="Post">
-						</label><a href="" class="copy-to-clipboard">&#x2398;</a>
-					</p>
-					<p>
-						<label>Plural<br>
-							<input id="custom-post-type-name-plural" type="text" name="name" value="" placeholder="Posts">
-						</label><a href="" class="copy-to-clipboard">&#x2398;</a>
-					</p>
+
+					<div class="form-block">
+
+						<p>
+							<label>Singular (english)<br>
+								<input id="custom-post-type-name-singular-en" type="text" name="name" value="" placeholder="Post">
+							</label><a href="#" class="copy-to-clipboard">&#x2398;</a>
+						</p>
+
+						<p>
+							<label>Plural (english)<br>
+								<input id="custom-post-type-name-plural-en" type="text" name="name" value="" placeholder="Posts">
+							</label><a href="#" class="copy-to-clipboard">&#x2398;</a>
+						</p>
+
+					</div><!-- .form-block -->
+
+					<div class="form-block">
+
+						<p>
+							<label>Singular (deutsch)<br>
+								<input id="custom-post-type-name-singular" type="text" name="name" value="" placeholder="Post">
+							</label><a href="#" class="copy-to-clipboard">&#x2398;</a>
+						</p>
+
+						<p>
+							<label>Plural (deutsch)<br>
+								<input id="custom-post-type-name-plural" type="text" name="name" value="" placeholder="Posts">
+							</label><a href="#" class="copy-to-clipboard">&#x2398;</a>
+						</p>
+
+					</div><!-- .form-block -->
+
 				</fieldset>
+
 				<fieldset class="translations">
+
 					<legend>Übersetzungen</legend>
+
 					<p>
 						<label><span class="post-type-name post-type-name-singular post-type-name-uppercase">Post</span> updated.<br>
 							<input readonly type="text" name="name" value="" placeholder="Beitrag aktualisiert." data-translation="%%Post%% aktualisiert.">
-						</label><a href="" class="copy-to-clipboard">&#x2398;</a>
+						</label><a href="#" class="copy-to-clipboard">&#x2398;</a>
 					</p>
+
 					<p>
 						<label>Custom field updated.<br>
 							<input readonly type="text" name="name" value="Benutzerdefiniertes Feld aktualisiert." placeholder="Benutzerdefiniertes Feld aktualisiert." data-translation="Benutzerdefiniertes Feld aktualisiert.">
-						</label><a href="" class="copy-to-clipboard">&#x2398;</a>
+						</label><a href="#" class="copy-to-clipboard">&#x2398;</a>
 					</p>
+
 					<p>
 						<label>Custom field deleted.<br>
 							<input readonly type="text" name="name" value="Benutzerdefiniertes Feld gelöscht." placeholder="Benutzerdefiniertes Feld gelöscht." data-translation="Benutzerdefiniertes Feld gelöscht.">
-						</label><a href="" class="copy-to-clipboard">&#x2398;</a>
+						</label><a href="#" class="copy-to-clipboard">&#x2398;</a>
 					</p>
+
 					<p>
 						<label><span class="post-type-name post-type-name-singular post-type-name-uppercase">Post</span> restored to revision from %s.<br>
 							<input readonly type="text" name="name" value="" placeholder="Beitrag aus Revision vom %s wiederhergestellt." data-translation="%%Post%% aus Revision vom %s wiederhergestellt.">
-						</label><a href="" class="copy-to-clipboard">&#x2398;</a>
+						</label><a href="#" class="copy-to-clipboard">&#x2398;</a>
 					</p>
+
 					<p>
 						<label><span class="post-type-name post-type-name-singular post-type-name-uppercase">Post</span> published.<br>
 							<input readonly type="text" name="name" value="" placeholder="Beitrag veröffentlicht." data-translation="%%Post%% veröffentlicht.">
-						</label><a href="" class="copy-to-clipboard">&#x2398;</a>
+						</label><a href="#" class="copy-to-clipboard">&#x2398;</a>
 					</p>
+
 					<p>
 						<label><span class="post-type-name post-type-name-singular post-type-name-uppercase">Post</span> saved.<br>
 							<input readonly type="text" name="name" value="" placeholder="Beitrag gespeichert." data-translation="%%Post%% gespeichert.">
-						</label><a href="" class="copy-to-clipboard">&#x2398;</a>
+						</label><a href="#" class="copy-to-clipboard">&#x2398;</a>
 					</p>
+
 					<p>
 						<label><span class="post-type-name post-type-name-singular post-type-name-uppercase">Post</span> submitted.<br>
 							<input readonly type="text" name="name" value="" placeholder="Beitrag abgeschickt." data-translation="%%Post%% abgeschickt.">
-						</label><a href="" class="copy-to-clipboard">&#x2398;</a>
+						</label><a href="#" class="copy-to-clipboard">&#x2398;</a>
 					</p>
+
 					<p>
 						<label><span class="post-type-name post-type-name-singular post-type-name-uppercase">Post</span> scheduled for: %s.<br>
 							<input readonly type="text" name="name" value="" placeholder="Beitrag geplant für %s." data-translation="%%Post%% geplant für %s.">
-						</label><a href="" class="copy-to-clipboard">&#x2398;</a>
+						</label><a href="#" class="copy-to-clipboard">&#x2398;</a>
 					</p>
+
 					<p>
 						<label>M j, Y @ H:i<br>
 							<input readonly type="text" name="name" value="M j, Y @ H:i" placeholder="M j, Y @ H:i" data-translation="M j, Y @ H:i">
-						</label><a href="" class="copy-to-clipboard">&#x2398;</a>
+						</label><a href="#" class="copy-to-clipboard">&#x2398;</a>
 					</p>
+
 					<p>
 						<label><span class="post-type-name post-type-name-singular post-type-name-uppercase">Post</span> draft updated.<br>
 							<input readonly type="text" name="name" value="" placeholder="Beitragsentwurf aktualisiert." data-translation="%%Post%%entwurf aktualisiert.">
-						</label><a href="" class="copy-to-clipboard">&#x2398;</a>
+						</label><a href="#" class="copy-to-clipboard">&#x2398;</a>
 					</p>
+
 					<p>
 						<label>View <span class="post-type-name post-type-name-singular post-type-name-lowercase">post</span><br>
 							<input readonly type="text" name="name" value="" placeholder="Beitrag ansehen" data-translation="%%Post%% ansehen">
-						</label><a href="" class="copy-to-clipboard">&#x2398;</a>
+						</label><a href="#" class="copy-to-clipboard">&#x2398;</a>
 					</p>
+
 					<p>
 						<label>Preview <span class="post-type-name post-type-name-singular post-type-name-lowercase">post</span><br>
 							<input readonly type="text" name="name" value="" placeholder="Beitrag-Vorschau" data-translation="%%Post%%-Vorschau">
-						</label><a href="" class="copy-to-clipboard">&#x2398;</a>
+						</label><a href="#" class="copy-to-clipboard">&#x2398;</a>
 					</p>
+
 					<p>
 						<label><span class="post-type-name post-type-name-plural post-type-name-uppercase">Posts</span><br>
 							<input readonly type="text" name="name" value="" placeholder="Beiträge" data-translation="%%Posts%%">
-						</label><a href="" class="copy-to-clipboard">&#x2398;</a>
+						</label><a href="#" class="copy-to-clipboard">&#x2398;</a>
 					</p>
+
 					<p>
 						<label><span class="post-type-name post-type-name-singular post-type-name-uppercase">Post</span><br>
 							<input readonly type="text" name="name" value="" placeholder="Beitrag" data-translation="%%Post%%">
-						</label><a href="" class="copy-to-clipboard">&#x2398;</a>
+						</label><a href="#" class="copy-to-clipboard">&#x2398;</a>
 					</p>
+
 					<p>
 						<label>Add New<br>
 							<input readonly type="text" name="name" value="Erstellen" placeholder="Erstellen" data-translation="Erstellen">
-						</label><a href="" class="copy-to-clipboard">&#x2398;</a>
+						</label><a href="#" class="copy-to-clipboard">&#x2398;</a>
 					</p>
+
 					<p>
 						<label>Add New <span class="post-type-name post-type-name-singular post-type-name-uppercase">Post</span><br>
 							<input readonly type="text" name="name" value="" placeholder="Neuen Beitrag erstellen" data-translation="Neuen %%Post%% erstellen">
-						</label><a href="" class="copy-to-clipboard">&#x2398;</a>
+						</label><a href="#" class="copy-to-clipboard">&#x2398;</a>
 					</p>
+
 					<p>
 						<label>Edit <span class="post-type-name post-type-name-singular post-type-name-uppercase">Post</span><br>
 							<input readonly type="text" name="name" value="" placeholder="Beitrag bearbeiten" data-translation="%%Post%% bearbeiten">
-						</label><a href="" class="copy-to-clipboard">&#x2398;</a>
+						</label><a href="#" class="copy-to-clipboard">&#x2398;</a>
 					</p>
+
 					<p>
 						<label>New <span class="post-type-name post-type-name-singular post-type-name-uppercase">Post</span><br>
 							<input readonly type="text" name="name" value="" placeholder="Neuer Beitrag" data-translation="Neuer %%Post%%">
-						</label><a href="" class="copy-to-clipboard">&#x2398;</a>
+						</label><a href="#" class="copy-to-clipboard">&#x2398;</a>
 					</p>
+
 					<p>
 						<label>Search <span class="post-type-name post-type-name-plural post-type-name-uppercase">Posts</span><br>
 							<input readonly type="text" name="name" value="" placeholder="Beiträge durchsuchen" data-translation="%%Posts%% durchsuchen">
-						</label><a href="" class="copy-to-clipboard">&#x2398;</a>
+						</label><a href="#" class="copy-to-clipboard">&#x2398;</a>
 					</p>
+
 					<p>
 						<label>No <span class="post-type-name post-type-name-plural post-type-name-lowercase">posts</span> found<br>
 							<input readonly type="text" name="name" value="" placeholder="Keine Beiträge gefunden" data-translation="Keine %%Posts%% gefunden.">
-						</label><a href="" class="copy-to-clipboard">&#x2398;</a>
+						</label><a href="#" class="copy-to-clipboard">&#x2398;</a>
 					</p>
+
 					<p>
 						<label>No <span class="post-type-name post-type-name-plural post-type-name-lowercase">posts</span> found in Trash<br>
 							<input readonly type="text" name="name" value="" placeholder="Keine Beiträge im Papierkorb gefunden." data-translation="Keine %%Posts%% im Papierkorb gefunden.">
-						</label><a href="" class="copy-to-clipboard">&#x2398;</a>
+						</label><a href="#" class="copy-to-clipboard">&#x2398;</a>
 					</p>
+
 				</fieldset>
+
 			</form>
+
 		</main>
+
 		<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+
 		<script src="assets/script.js"></script>
+
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -146,5 +200,6 @@
 			ga('set', 'anonymizeIp', true);
 			ga('send', 'pageview');
 		</script>
+
 	</body>
 </html>
