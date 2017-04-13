@@ -57,7 +57,7 @@ $copy.click(function(e){
 
 	e.preventDefault();
 
-	jQuery(this).prev().find('input').select();
+	jQuery(this).parent().find('input').select();
 
 	try {
 		var successful = document.execCommand('copy');
@@ -65,5 +65,5 @@ $copy.click(function(e){
 	} catch (err) {
 		console.log('Oops, unable to copy');
 	}
-	
+
 });

@@ -11,6 +11,10 @@ html {
 	font-family: sans-serif;
 }
 
+main {
+	padding: 0 80px;
+}
+
 h1 {
 	text-align: center;
 }
@@ -101,4 +105,22 @@ input {
 
 input:focus {
 	background: #fff;
+}
+
+.horttcore {
+	position: fixed;
+	left: 1em;
+	top: 1em;
+}
+
+.github {
+	opacity: .5;
+	position: fixed;
+	right: 1em;
+	top: 1em;
+	transition: opacity .2s;
+}
+
+.github:hover {
+	opacity: 1;
 }
