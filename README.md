@@ -11,8 +11,8 @@ A small tool for helping german authors to translate their post types
 
 ### v1.2.0
 
-* Add link to github repository
-* I'm a selfish bastard, so I'm giving myself some credits
+* Added: Link to github repository
+* Added: I’m a selfish bastard, so I'm giving myself some credits
 
 ### v1.1.1
 
